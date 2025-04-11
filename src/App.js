@@ -4,7 +4,18 @@ import './App.css';
 function App() {
   return (
     <div className="font-sans">
-      <header className="bg-black text-white p-4 text-xl font-bold">Fierce Flexx</header>
+    <header className="bg-black text-white sticky top-0 z-50 shadow-md">
+  <nav className="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <h1 className="text-xl font-bold">Fierce Flexx</h1>
+    <ul className="flex gap-6 text-sm font-semibold">
+      <li><a href="#hero" className="hover:text-pink-300">Home</a></li>
+      <li><a href="#about" className="hover:text-pink-300">About</a></li>
+      <li><a href="#shop" className="hover:text-pink-300">Shop</a></li>
+      <li><a href="#contact" className="hover:text-pink-300">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
 
       <section id="hero" className="h-screen flex items-center justify-center bg-pink-100 text-center">
         <div>
